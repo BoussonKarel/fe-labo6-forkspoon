@@ -1,0 +1,28 @@
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+// @ts-ignore
+} from 'react-router-dom';
+
+import './style/screen.scss';
+
+import Login from './screens/Login';
+import NotFound from './screens/NotFound';
+
+function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route path="/login">
+              <Login />
+          </Route>
+          <Route path="*">
+              <NotFound />
+          </Route>
+      </Switch>
+    </Router>
+  );
+}
+
+export default App;
