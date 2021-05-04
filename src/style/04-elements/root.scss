@@ -1,0 +1,5 @@
+@import '../01-settings/colors.scss';
+
+:root {
+	--global-color-hue: hue($theme-color);
+}

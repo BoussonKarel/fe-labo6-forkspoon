@@ -1,8 +1,8 @@
-import '../../style/06-components/row.scss';
+import '../../style/05-objects/row.scss';
 
 const Row = (props: any) => {
     return (
-        <div className={`o-row ${props.className}`}>
+        <div className={`o-row ${props.className ? props.className : ''}`}>
             { props.children }
         </div>
     )

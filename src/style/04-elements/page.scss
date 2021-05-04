@@ -3,6 +3,6 @@ html {
 }
 
 body {
-  font: #{$base-font-size}/#{$base-line-height} $font-stack-alpha;
+  font: #{ $base-font-size }/#{ $base-line-height } $font-stack-alpha;
   color: $dark;
 }
